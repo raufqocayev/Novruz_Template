@@ -1,0 +1,459 @@
+.header{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(77, 190, 177, 0.60);
+    color: white;
+}
+
+.contact>i:nth-child(1)::after{
+    content: "  mail@vodka.ru";
+}
+.contact>i:nth-child(2)::after{
+    content: "  050-371-09-90";
+}
+
+.contact{
+    padding-left: 150px;
+}
+.contact i{
+    padding-left: 35px;
+}
+.social{
+    position: absolute;
+    left: 85%;
+    top: 0;
+}
+.social i {
+    padding-left: 10px;
+}
+
+
+
+
+.navbar{
+    background-color: rgba(255, 255, 255, .95);
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    top: 3.5%;
+    padding: 5px;
+}
+
+
+.navbar-brand{
+    position: relative;
+    left: 13.5%;
+}
+
+.navmenu{
+    position: absolute;
+    left: 33%;
+    z-index: 1000;
+}
+.navmenu li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: #AAAAAA;
+    float: left;
+    padding-left: 15px;
+}
+
+.fa-bars {
+    position: relative;
+    left: 85%;
+}
+
+.navmenu li:hover{
+    color: orange;
+}
+.navmenu li:nth-child(1){
+    color: orange;
+}
+/* header end */
+
+
+/* main start */
+img{
+    width: 100%;
+    height: 100vh;
+}
+
+.main-title{
+    position: absolute;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+    top: 30%;
+    left: 35%;
+}
+.first-title{
+    color: white;
+    font-size: 72px;
+}
+.second-title{
+    color: #9C9C9C;
+    letter-spacing: 1px;
+    word-spacing: 15px;
+    font-size: 15px;
+}
+
+.links{
+    padding-top: 25px;
+}
+.links a{
+    border: 1px solid wheat;
+    border-radius: 35px;
+    font-size: 20px;
+    margin: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.links a:nth-child(1){
+    color:white;
+    background-color: orange;
+}
+.links a:nth-child(2){
+    color: white;
+    background-color: #31C2B1;
+}
+
+/* first section */
+
+.first-section{
+    text-align: center;
+}
+
+.first-section>i{
+    border: 2px solid lightgray;
+    color: gray;
+    border-radius: 100%;
+    font-size: 25px;
+    padding: 15px;
+}
+
+/* second section */
+.col-lg-6{
+   padding-top:110px;
+}
+
+.col-lg-6>img{
+    height: 350px;
+}
+
+.fa-chevron-circle-right{
+    color: orange;
+}
+
+.second-ul li{
+    padding:10px; 
+}
+
+.more{
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    border-radius: 35px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* third section */
+
+.third-section{
+    background-color: #31C2B1;
+}
+
+.third-title{
+    font-size: 16px;
+}
+
+.third-title>i>p{
+    font-size: 28px;
+    float: right;
+}
+
+/* fourth section */
+
+.fourth-section{
+    position: relative;
+}
+
+
+.fourth-section>img{
+    z-index: -5;
+    position: sticky;
+    margin-top: -100px;
+}
+
+.fourth-title{
+   position: absolute;
+   top: 35%;
+   left: 25%;
+   color: white;
+   text-align: center;
+}
+
+.fourth-title p:nth-child(3){
+    position: absolute;
+    left: 43%;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 55px;
+    padding: 5px 25px;
+    
+}
+
+.fourth-title p:nth-child(3):hover{
+    background-color: transparent;
+}
+
+/* fifth-section */
+
+
+.fifth-title{
+    align-content: center;
+    text-align: center;
+    margin-top: 190px;
+    letter-spacing: 2px;
+}
+
+.empty{
+    margin-left: 640px;
+    margin-right: 640px;
+    border-bottom: 2px solid orange
+}
+
+.fifth-img{
+    padding:0;
+}
+
+.fifth-img img{
+    height: 250px;
+    opacity: 1;
+}
+
+.fifth-more{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 630px;
+    margin-right: 630px;
+    border-radius: 55px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    color: gray;
+}
+
+.fifth-more:hover{
+    background-color: orange;
+    color: aliceblue;
+}
+
+/* sixth section */
+
+.sixth-content{
+    position: relative;
+    margin-left: 85px;
+    margin-right: 85px;
+
+}
+
+.firstbg:hover{
+  background-image: url(images/raccoon-3820327_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secondbg:hover{
+    background-image: url(images/panda-1236875_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thirdbg:hover{
+    background-image: url(images/mandrill-396289_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* seventy section */
+
+#logos-company .imagekeeper {
+    width: 20%;
+    height: 5rem;
+}
+
+#logos-company {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7.5%;
+}
+
+/* eight section */
+
+#usermap {
+    position: relative;
+}
+
+.inputform {
+    background-color: rgba(77, 190, 177);
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 99.5%;
+}
+
+.inputform input {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 2px solid white;
+    color: white
+}
+
+.inputform textarea {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 2px solid white;
+    color: white
+}
+
+.inputform input::placeholder {
+    color: white;
+}
+
+.inputform textarea::placeholder {
+    color: white;
+}
+
+.inputform input:focus {
+    outline: none;
+}
+
+.inputform textarea:focus {
+    outline: none;
+}
+
+#email {
+    margin-left: 15%;
+}
+
+/* ninth section */
+
+#socmedia {
+    display: flex;
+    background-color: rgb(55, 55, 55);
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#socmedia .logokeeper {
+    width: 20%;
+    float: left;
+    background-color: rgb(55, 55, 55);
+    height: 7rem;
+}
+
+#socmedia .logokeeper:nth-of-type(n+1) {
+    border-right: 1px solid rgba(46, 44, 44, 0.596);
+    border-left: 1px solid rgba(46, 44, 44, 0.596);
+}
+
+#socmedia .logokeeper p {
+    color: white;
+    transform: translate(0%, 170%);
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 0.5em;
+}
+
+#socmedia .logokeeper i{
+    font-size: 18px;
+    width: 15%;
+    transform: translate(0%, 110%);
+    border-radius: 50%;
+    margin-right: 2%;
+    color: #626262;
+    border: 1px solid #626262;
+    padding: 4% 5%;
+    margin-left: 10%;
+}
+#socmedia .logokeeper:nth-child(1):hover{
+    background-color: rgb(71, 71, 160);
+}
+#socmedia .logokeeper:nth-child(2):hover{
+    background-color: rgb(52, 177, 177)
+}
+#socmedia .logokeeper:nth-child(3):hover{
+    background-color: rgb(35, 218, 111)
+}
+#socmedia .logokeeper:nth-child(4):hover{
+    background-color: rgb(224, 91, 113)
+}
+#socmedia .logokeeper:nth-child(5):hover{
+    background-color: rgb(83, 83, 211);
+}
+#socmedia .logokeeper:hover{
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+#socmedia .logokeeper:hover i{
+    color: white;
+    transition: 0.2s ease;
+    border-color: white;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(52, 52, 52);
+}
+footer .logopart h3{
+    color: rgb(238, 38, 38);
+    letter-spacing: -0.25em;
+    margin-left: 15%;
+    margin-top: 20%;
+}
+footer ul{
+    list-style-type: none;
+    margin-top: 11%
+}
+footer .contact ul li{
+    margin-top: 10%;
+    font-size: inherit;
+}
+footer .upper h5{
+    color: white;
+    margin-top: 22%;
+    margin-left:15% 
+
+}
+footer ul li{
+    line-height: 35px;
+    font-size: 14px;
+}
+footer .linkspart ul li a:hover, footer .aboutpart ul li a:hover{
+    color: orange;
+    transition: 0.3s ease
+}
+footer .photopart h5{
+    margin-left: -5%;
+}
+footer .bottomphoto{
+    margin-top: 19.5%;
+}
+footer .bottomphoto .imagekeeper{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 4.5rem
+}
+footer .bottomphoto .imagekeeper img{
+    width: 100%;
+    height: 100%
+}
+footer .afterhr{
+    letter-spacing: 0.5em;
+    padding-bottom: 2%;
+}
+
